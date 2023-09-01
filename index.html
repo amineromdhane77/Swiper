@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website image slider</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+</head>
+<body>
+    <section class="main swiper mySwiper">
+<div class="wrapper swiper-wrapper ">
+    <div class="slider swiper-slide">
+        <img src="images/image1.jpg" alt="" class="image">
+        <div class="image-data">
+            <span class="text">Enjey the fines coffee drink</span>
+            <h2>Enjey our exclusive<br>Coffee and Cocktailes</h2>
+            <a href="#" class="button">About Us</a>
+        </div>
+    </div>
+    <div class="slider swiper-slide">
+      <img src="images/image4.jpg" alt="" class="image">
+      <div class="image-data">
+          <span class="text">Enjey the fines coffee drink</span>
+          <h2>Enjey our exclusive<br>Coffee and Cocktailes</h2>
+          <a href="#" class="button">About Us</a>
+      </div>
+  </div>
+  <div class="slider swiper-slide">
+    <img src="images/image3jpg.jpg" alt="" class="image">
+    <div class="image-data">
+        <span class="text">Enjey the fines coffee drink</span>
+        <h2>Enjey our exclusive<br>Coffee and Cocktailes</h2>
+        <a href="#" class="button">About Us</a>
+    </div>
+</div>
+<div class="slider swiper-slide">
+  <img src="images/image7.jpg" alt="" class="image">
+  <div class="image-data">
+      <span class="text">Enjey the fines coffee drink</span>
+      <h2>Enjey our exclusive<br>Coffee and Cocktailes</h2>
+      <a href="#" class="button">About Us</a>
+  </div>
+</div>
+<div class="slider swiper-slide">
+  <img src="images/image2.jpg" alt="" class="image">
+  <div class="image-data">
+      <span class="text">Enjey the fines coffee drink</span>
+      <h2>Enjey our exclusive<br>Coffee and Cocktailes</h2>
+      <a href="#" class="button">About Us</a>
+  </div>
+</div>
+</div>
+<div class="swiper-button-next nav-btn"></div>
+<div class="swiper-button-prev nav-btn"></div>
+<div class="swiper-pagination"></div>
+</section>
+<script src="js/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
+
+</body>
+</html>
